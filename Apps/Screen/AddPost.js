@@ -261,7 +261,7 @@ const AddPost = () => {
         <Text style={styles.subHeader}>Create New Post and Start Selling</Text>
         <TouchableOpacity onPress={pickImage} style={styles.imagePicker}>
           <Image
-            source={image ? { uri: image } : require('./../../assets/images/placeholder.png')}
+            source={image ? { uri: image } : require('./../../assets/images/placehold.png')}
             style={styles.image}
           />
         </TouchableOpacity>
