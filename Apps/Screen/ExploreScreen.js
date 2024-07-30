@@ -38,7 +38,7 @@ const ExploreScreen = () => {
       setProductList(products);
     };
   return (   
-    <View className='p-5 py-8'>
+    <View className='p-1 py-8 bg-white h-full'>
       <Text className='text-[30px] font-bold'>Explore More</Text>
       <LatestItem latestItemList={productList}/>
     </View>
