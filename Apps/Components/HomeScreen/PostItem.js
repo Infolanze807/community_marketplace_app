@@ -7,7 +7,7 @@ const PostItem = ({item}) => {
     const navigation=useNavigation();
   return (
     
-      <TouchableOpacity className='flex-1 m-2 p-2 rounded-lg border-[1px] border-slate-200' onPress={()=>navigation.push('ProductDetail',
+      <TouchableOpacity className='flex-1 m-1 p-2 rounded-lg border-[1px] border-slate-200' onPress={()=>navigation.push('ProductDetail',
         {
           product:item
         }

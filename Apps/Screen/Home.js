@@ -125,7 +125,6 @@ const Home = () => {
   return (
     <FlatList
       data={[{title:'abc',title:'xyz'}]}
-      className='p-4 bg-white'
       keyExtractor={(item, index) => index.toString()}
       ListHeaderComponent={
         <>

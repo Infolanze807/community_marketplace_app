@@ -3,14 +3,14 @@ import React from 'react'
 
 const Slider = ({sliderList}) => {
   return (
-    <View className='mt-5'>
+    <View className='m-3 '>
         <FlatList
             data={sliderList}
             horizontal
             showsHorizontalScrollIndicator={false}
             renderItem={({item,index})=>(
-                <View>
-                    <Image source={{uri:item.url}} className='h-[150px] w-[300px] object-contain rounded-lg mr-3' />
+                <View className='w-[325px] mr-2'>
+                    <Image source={{uri:item.url}} className='h-[150px] w-full rounded-lg '/>
                 </View>
             )}
         />
